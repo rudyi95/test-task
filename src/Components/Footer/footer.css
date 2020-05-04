@@ -1,0 +1,94 @@
+.footer {
+    background: #76c7c0 url(./images/Path.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 45px;
+    position: relative;
+}
+
+.footer-text {
+    font-size: 13px;
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 23px;
+    color: #fff;
+}
+.footer-contact a {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.footer-menu__title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #3b6360;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.footer-menu__nav li {
+    font-size: 13px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.footer-posts-title {
+    line-height: 24px;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.footer-posts-title strong {
+    font-weight: 800;
+    font-style: normal;
+}
+
+.posts-list__img img {
+    padding-top: 10px;
+    width: 100%;
+}
+.posts-list__data {
+    padding: 0;
+}
+.posts-list__name {
+    font-size: 13px;
+    line-height: 10px;
+    color: #fff;
+}
+.posts-list_date {
+    font-size: 13px;
+    line-height: 20px;
+    color: #3b6360;
+}
+
+.footer-bottom {
+    background-color: #6ab3ac;
+    margin-top: 45px;
+}
+.footer-bottom__flex {
+    height: 50px;
+    align-items: center;
+}
+.copyright {
+    font-size: 12px;
+    color: #fff;
+    padding-left: 0;
+}
+.footer-socials {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 0;
+    max-width: 200px;
+}

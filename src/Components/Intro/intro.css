@@ -1,0 +1,47 @@
+.intro {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.intro .intro-container {
+  padding: 15px 30px;
+  background-color: #ececec;
+  border-radius: 5px;
+}
+
+.intro .intro-container .itnro-title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #7f8c8c;
+  font-weight: 600;
+}
+
+.intro .intro-container .itnro-text {
+  font-size: 13px;
+  line-height: 21px;
+  color: #777777;
+}
+
+.intro .intro-container .intro-more {
+  display: block;
+  margin-left: auto;
+  border-radius: 5px;
+  font-size: 20px;
+  max-width: 200px;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  background: #e8645a;
+  text-decoration: none;
+  border-bottom: 3px solid #e2534b;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.intro .intro-container .intro-more:hover {
+  background-color: #62a29e;
+  border-color: #528b86;
+}

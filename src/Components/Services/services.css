@@ -1,0 +1,97 @@
+/* 
+.services{
+    display: flex;
+    justify-content: center;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+} */
+
+.services {
+    padding-bottom: 25px;
+  }
+  
+  .services .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .services .services-block {
+    margin-bottom: 50px;
+  }
+  
+  .services .services-block .services-item {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 45px 20px;
+    text-align: center;
+    height: 315px;
+    border-bottom: 3px solid #e5e6e6;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    position: relative;
+  }
+  
+  .services .services-block .services-item:hover {
+    background-color: #fff;
+  }
+  
+  .services .services-block .services-item:hover .services-item-icon i {
+    color: #e2534b;
+  }
+  
+  .services .services-block .services-item:hover .services-item-more {
+    background-color: #e8645a;
+    border-color: #e2534b;
+  }
+  
+  .services .services-block .services-item .services-item-icon {
+    margin-bottom: 15px;
+  }
+  
+  .services .services-block .services-item .services-item-icon i {
+    font-size: 60px;
+    color: #62bdbd;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  
+  .services .services-block .services-item .services-item-name {
+    font-size: 16px;
+    line-height: 20px;
+    color: #7f8c8c;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  
+  .services .services-block .services-item .services-item-desc {
+    font-size: 13px;
+    line-height: 21px;
+    color: #777777;
+  }
+  
+  .services .services-block .services-item .services-item-more {
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+    font-size: 14px;
+    max-width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 54px;
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: 600;
+    background-color: #76c7c0;
+    text-decoration: none;
+    border-bottom: 3px solid #62b9b0;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    bottom: -25px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
